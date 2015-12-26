@@ -1,0 +1,47 @@
+html {
+	background-color:aliceblue;
+}
+h1 {
+	color:midnightblue;
+	font-family: 'IM Fell English', serif;
+	font-size:300%;
+	text-align:right;
+	width:35%;
+	float:right;
+	padding:0 25 0 0;
+}
+h2 {
+	color:midnightblue;
+	font-family: 'IM Fell English', serif;
+	font-size:200%;
+	text-align:center;
+}
+h3 {
+	color:midnightblue;
+	font-family: 'IM Fell English', serif;
+	font-size:150%;
+	text-align:center;
+}
+p {
+	color:black;
+	font-size:120%;
+	text-align:justify;
+	padding:10px;
+}
+a {
+	color:black;
+	font-size:120%;
+	padding:10px;
+}
+a:link, a:visited {
+	background-color: lightblue;
+	text-decoration:none;
+}
+a:hover, a:active {
+	background-color:lightcyan;
+	text-decoration:none;
+}
+img {
+	padding:10px;
+	float:right;
+}

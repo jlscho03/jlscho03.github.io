@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>Jacascript Testing Page</title>
+		<meta charset="UTF-8">
+		<link href="styles/style-basic.css" rel="stylesheet" type="text/css">
+		<link href='https://fonts.googleapis.com/css?family=Martel:400,200' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<h1>The Hunters Division</h1>
+			<a href="index.html">Home</a>
+			<a href="about-the-books.html">The Books</a>
+				<a href="book-1.html">Book One</a>
+				<a href="book-2.html">Book Two</a>
+				<a href="book-3.html">Book Three</a>
+			<a href="about-the-author.html">The Author</a>
+			<a href="future-projects.html">Future Projects</a>
+			<a href="wikia-link.html">Wikia</a>
+		<h2>Other Links</h2>
+			<a href="http://www.amazon.com">Amazon</a>
+			<a href="testing-site.html">Just for Fun</a>
+			<a href="../crystal-webs/index.html">Crystal Webs</a>
+			<a href="contact.html">Contact</a>
+		<h1>My First JavaScript</h1>
+		<button type="button"
+		onclick="document.getElementById('demo').innerHTML = Date()">
+		Click me to display Date and Time.</button>
+		<p id="demo"></p>
+		<!--Things I learned here: .getElementById is case sensitive! 
+		I told the program to generate a button. When I click I tell it to add a 
+		paragraph tag, empty, which will fill with the Date. -->
+		<h1>What Can JavaScript Do?</h1>
+		<p id="demo2">JavaScript can change HTML content.</p>
+		<button type="button"
+		onclick="document.getElementById('demo2').innerHTML = 'Hello JavaScript!'">
+		Click Me!</button>
+		<!--Things I learned here: Make sure to only have one reference for each item.
+		ex. demo vs. demo2. -->
+		<p id="demo3">JavaScript can change the style of an HTML element.</p>
+		<button type="button" onclick="myFunction()">Click Me!</button>
+		<!--Things I will learn here: Reference what to change using the id tags! -->
+		<h1>JavaScript Can Change Images</h1>
+		<img id="myImage" onclick="changeImage()" src="images/Testing/pic_bulboff.gif" width="100" height="180">
+		<p>Click the light bulb to turn on/off the light.</p>
+		<script src="scripts/main.js"></script>
+		<!--Things I learned here: My first script is referenced in 'main.js' and the
+		image directory didn't have to be moved up when searching for that one; Always 
+		point to what you want - directory navigation.-->
+		<h1>JavaScript Can Validate Input</h1>
+		<p>Please input a number between 1 and 10:</p>
+		<input id="numb" type="number">
+		<button type="button" onclick="myFunction()">Submit</button>
+		<p id="demo4"></p>
+		<!---->
+		<h1>JavaScript</h1>
+		<p id="demo5">A paragraph.</p>
+		<button type="button" onclick="myFunction()">Try it</button>
+		<!--Thins I think will happen: It will reference my script and reference 
+		the portion for "demo 5" and apply those change when I click that button. 
+		However, what is happening is that the buttons are not mapping correctly?-->
+	<script src="scripts/main.js"></script>
+	</body>
+</html>

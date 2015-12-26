@@ -1,0 +1,68 @@
+html {
+	background-color:black;
+}
+h1 {
+	color:floralwhite;
+	font-family: 'Martel', serif;
+	font-size:300%;
+	text-align:center;
+}
+h2 {
+	color:ghostwhite;
+	font-family: 'Martel', serif;
+	font-size:200%;
+	text-align:center;
+}
+h3 {
+	color:ghostwhite;
+	font-family: 'Martel', serif;
+	font-size:150%;
+	text-align:center;
+}
+h4 {
+	color:gainsboro;
+	font-family: 'Martel', serif;
+	font-size:140%;
+}
+h5 {
+	color:gainsboro;
+	font-family: 'Martel', serif;
+	font-size:130%;
+}
+p {
+	color:snow;
+	font-size:120%;
+	text-align:justify;
+	padding:10px;
+}
+a {
+	color:snow;
+	font-size:120%;
+}
+a:link, a:visited {
+	background-color:transparent;
+	text-decoration:none;
+}
+a:hover, a:active {
+	color: darkgreen;
+	background-color:rgba(255,255,255,.75);
+	text-decoration:none;
+}
+img {
+	margin:10px;
+}
+.book-1-whole {
+	white-space:nowrap;
+	max-width:100%;
+}
+.book-1-whole p {
+	white-space:normal;
+}
+.book-1-des {
+	display:inline-block;
+	vertical-align:middle;
+	max-width:85%;
+}
+.book-1-des h3 {
+	text-align:left;
+}
